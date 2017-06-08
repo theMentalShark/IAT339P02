@@ -1,0 +1,115 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+
+h3.citation {
+  margin-bottom: 0px;
+}
+
+code {
+
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #03c;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #09f;
+}
+
+a {
+  font-weight: bold;
+}
+
+.button-form {
+  display:  inline-block;;
+  color: #000;
+  background:  #fc3;
+  padding: .5em .75em;
+  border-radius: .3em;
+}
+
+
+.button-form:hover, .button-form:focus {
+  background-color: #fe7;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+input{
+  border-radius: .3em;
+  color: #999;
+}
+
+h1 {
+  background: #09f;
+  color: #FFF;
+  padding: 1em;
+}
+
+p {
+  display: inline-block;
+  background:  #EEE;
+  color: #555;
+}
+
+li {
+  background: #def;
+  margin: :.25em;
+}
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+div.product-row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: : 10%;
+}
+
+div.product-colum{
+  display: inline-block;
+  *display: inline;
+  text-align: center;
+}
