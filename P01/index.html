@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>
+	<meta charset = "utf-8">
+	<title>Wireframe</title>
+
+
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<h1>Styleguide</h1>
+
+	<nav>
+		<a href="index.html">Styleguide</a>
+		<a href="citation.html">Citation</a>
+		<a href="wireframe.html">Wirefrme</a>
+	</nav>
+
+
+    <nav>
+      
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>,
+      </p>
+
+    </nav>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+        <h3>CSS selector:</h3>
+        <p>a</p>
+        <h3>Sample code:</h3>
+        <code>Click the link &lt;a href="#"&gt;here&lt;/a&gt;.</code>
+        <h3>Rendered element:</h3>
+        Click the link <a href="#">here</a>.
+
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+        <h3>CSS selector</h3>
+        <p>.button-form</p>
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-form"&gt;Form Button&lt;/a&gt;</code>
+        <h3>Rendered element:</h3>
+        <a class="button-form" href="#">Form Button</a>
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+        <h3>CSS selector</h3>
+        <p>input</p>
+        <h3>Sample code:</h3>
+        <code>&lt;input type="text" name="Data" value="some text"&gt;&lt;/br&gt;</code>
+        <h3>Rendered element:</h3>
+        <input type="text" name="Data" value="some text"></br>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+        <h3>CSS selector:</h3>
+        <p>h1</p>
+		<h3>Sample code:</h3>
+		<code>&lt;h1&gt;This is H1 heading.&lt;/h1&gt;</code>
+		<h3>Rendered element:</h3>
+		<h1>This is H1 heading.</h1>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+
+		<h3>Sample code:</h3>
+		<code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+		<h3>Rendered element:</h3>
+		<p>This is a paragraph</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+        <h3>CSS selector</h3>
+        <p>ul</p>
+        <h3>Sample code:</h3>
+        <code>&lt;ul&gt;&lt;li&gt;This is a paragraph.&lt;/li&gt;&lt;li&gt;This is another paragraph.&lt;/li&gt;&lt;/ul&gt;</code>
+        <h3>Rendered element:</h3>
+        <p><ul><li>This is a paragraph.</li><li>This is another paragraph.</li></ul></p>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+        <h3>CSS selector</h3>
+        <p>ol</p>
+        <h3>Sample code:</h3>
+        <code>&lt;ol&gt;&lt;li&gt;This is a paragraph.&lt;/li&gt;&lt;li&gt;This is another paragraph.&lt;/li&gt;&lt;/ol&gt;</code>
+        <h3>Rendered element:</h3>
+        <p><ol><li>This is a paragraph.</li><li>This is another paragraph.</li></ol></p>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+        <h3>Sample code:</h3>
+        <code></code>
+        <h3>Rendered element:</h3>
+        <nav class="nav-bar">
+        	<a class="nav-button" href="#">Hompage</a>
+        	<a class="nav-button" href="#">Find Store</a>
+        	<a class="nav-button" href="#">Product</a>
+        	<a class="nav-button" href="#">Contact</a>
+        </nav>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>CSS selector</h3>
+        <p></p>
+        <h3>Sample code:</h3>
+        <h3>Rendered element:</h3>
+        <div class="product-row">
+          <div class="product-colum">
+          	<img src="image/product.jpg" width="120">
+            </br>
+            <a href="#">Product Name</a>
+            <p>Price: $???</p>
+            <a class="purchase-button" href="#">Add to cart</a>
+          </div>
+        	<div class="product-colum">
+            <img src="image/product.jpg" width="120">
+            </br>
+            <a href="#">Product Name</a>
+            <p>Price: $???</p>
+            <a class="purchase-button" href="#">Add to cart</a>
+          </div>
+          <div class="product-colum">
+            <img src="image/product.jpg" width="120">
+            </br>
+            <a href="#">Product Name</a>
+            <p>Price: $???</p>
+            <a class="purchase-button" href="#">Add to cart</a> 
+          </div>
+          <div class="product-colum">
+            <img src="image/product.jpg" width="120">
+            </br>
+            <a href="#">Product Name</a>
+            <p>Price: $???</p>
+            <a class="purchase-button" href="#">Add to cart</a> 
+          </div>
+        </div>
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+</body>
+
